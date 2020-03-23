@@ -5,7 +5,7 @@ description = "KNMI Climate Scenarios: resampling of global models for boundarie
 license = "Apache-2.0"
 authors = ["Evert Rol <e.rol@esciencecenter.nl>"]
 readme = "README.md"
-repository = "https://github.com/evertrol/kcs"
+repository = "https://github.com/eucp-project/kcs"
 keywords = ["knmi", "climate"]
 classifiers = [
 			"Development Status :: 3 - Alpha",
@@ -18,14 +18,14 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 numpy = "^1.18"
 pandas = "^1.0"
 h5py = "^2.10"
-matplotlib = "^3"
+matplotlib = "^2"
 # Note: scitools-iris requires matplotlib 2, not 3.
 # Matplotlib 2 is incompatible with Python 3.8
-scitools-iris = { git = "https://github.com/evertrol/iris.git", branch = "pyke3", tag="3.0.dev0" }
+scitools-iris = "^2.4"
 #cartopy = { git = "https://github.com/SciTools/cartopy.git" }
 
 [tool.poetry.dev-dependencies]
