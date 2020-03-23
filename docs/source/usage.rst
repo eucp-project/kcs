@@ -60,7 +60,7 @@ from its repository::
 
     conda activate kcs
 
-    pip install git+https://github.com/evertrol/kcs.git
+    pip install git+https://github.com/eucp-project/kcs.git
 
 
 Running modules
@@ -172,7 +172,7 @@ stay):
 
 .. code-block:: bash
 
-    git clone https::/github.com/evertrol/kcs.git
+    git clone https::/github.com/eucp-project/kcs.git
 
     cd kcs
 
